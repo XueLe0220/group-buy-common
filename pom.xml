@@ -11,6 +11,7 @@
 
     <modules>
         <module>group-buy-common-types</module>
+        <module>group-buy-common-design</module>
     </modules>
 
     <properties>
