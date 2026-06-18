@@ -20,6 +20,11 @@ public enum ResponseCode {
     NO_ACTIVITY_MARKET_CONFIG("A0002", "无拼团营销配置"),
     ACTIVITY_TRIAL_DOWNGRADE("A0003", "拼团活动试算降级拦截"),
     ACTIVITY_TRIAL_GRAY_RANGE_BLOCKED("A0004", "拼团活动试算灰度拦截"),
+
+    TRADE_ACTIVITY_NOT_AVAILABLE("T0001", "活动不可参与"),
+    TRADE_TAKE_LIMIT("T0002", "用户参与次数已达上限"),
+    TRADE_TEAM_NOT_AVAILABLE("T0003", "拼团队伍不可参与"),
+    TRADE_TEAM_FULL("T0004", "拼团队伍已满"),
     ;
 
     private final String code;
