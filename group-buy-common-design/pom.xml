@@ -8,6 +8,7 @@
         <artifactId>group-buy-common</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <packaging>jar</packaging>
 
     <artifactId>group-buy-common-design</artifactId>
 
